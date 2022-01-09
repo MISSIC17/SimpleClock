@@ -150,8 +150,8 @@ main {
   position: relative;
   background: #ff4500;
   z-index: 10;
-  -webkit-animation: redditAnim 2s infinite ease-in;
-          animation: redditAnim 2s infinite ease-in;
+  -webkit-animation: redditAnim 1s infinite ease;
+          animation: redditAnim 1s infinite ease;
 }
 
 @-webkit-keyframes redditAnim {
