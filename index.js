@@ -22,7 +22,7 @@ const changeTime = () => {
     (hours / 12 + intervalTime.getMinutes() / 3600) * 360
   }deg)`;
   minHand.style.transform = `translateY(-50%) rotateZ(${
-    (intervalTime.getMinutes() / 61 + intervalTime.getSeconds() / 3660) * 360
+    (intervalTime.getMinutes() / 60 + intervalTime.getSeconds() / 3660) * 360
   }deg)`;
 };
 
